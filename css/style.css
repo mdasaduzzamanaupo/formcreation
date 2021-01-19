@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	margin: 200px auto;
+}
+.form-container{
+	width: 25%;
+	margin: auto;
+	background-color: blue;
+	padding: 40px 20px;
+}
+.form-container h2{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+input,select{
+	width: 100%;
+	margin: 5px 0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width: 45%;
+	background-color: gray;
+	color: white;
+	border:none;
+	border-radius: 5px;
+}
+input:focus{
+	border-color: red;
+}
+input[type=submit]:hover{
+	color: green;
+}
